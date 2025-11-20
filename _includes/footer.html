@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="footer-wrapper">
+    <p class="footer-text">
+      © {{ site.time | date: "%Y" }} {{ site.author.name | default: site.title }}. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<style>
+.site-footer {
+  margin-top: 60px;
+  padding: 25px 0;
+  background: #fafafa;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+
+</style>

@@ -1,0 +1,10 @@
+title: Corry's schilderijen
+description: >-
+  Een verzameling van schilderijen gemaakt door Corry Smits.
+baseurl: ""
+url: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
