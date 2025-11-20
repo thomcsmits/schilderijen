@@ -7,12 +7,12 @@
   image: "rode_bloemen.png"
 
 - title: "Zee"
-  year: "jaar onbekend"
+  year: 2013
   image: "zee.png"
 
-- title: "Vallei"
-  year: "jaar onbekend"
-  image: "vallei.png"
+- title: "Danseres"
+  year: 2010
+  image: "danseres.png"
 
 - title: "Boslandschap"
   year: "jaar onbekend"
@@ -38,9 +38,9 @@
   year: "jaar onbekend"
   image: "picknick.png"
 
-- title: "Citroenen"
+- title: "Vallei"
   year: "jaar onbekend"
-  image: "citroenen.png"
+  image: "vallei.png"
 
 - title: "Boot op zee"
   year: 2014
@@ -49,6 +49,10 @@
 - title: "Jampotje"
   year: "jaar onbekend"
   image: "jampotje.png"
+
+- title: "Citroenen"
+  year: "jaar onbekend"
+  image: "citroenen.png"
 
 - title: "Rode boom"
   year: "jaar onbekend"
