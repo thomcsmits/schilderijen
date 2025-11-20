@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div class="intro">
-    <img align="left" src="/assets/img/general/corry.png" alt='Painting of older woman with a blue vest who is painting and facing to the left.'>
+    <img align="left" src="{{ '/assets/img/general/corry.png' | relative_url }}" alt='Painting of older woman with a blue vest who is painting and facing to the left.'>
     <p>
         Corry Smits-Brand (12 december 1935 - 16 november 2025) hield van schilderen en heeft vele schilderijen gemaakt. Hier een overzicht van haar schilderijen.
     </p>
@@ -15,7 +15,7 @@ layout: home
   {% assign paintings = site.data.paintings %}
   {% for painting in paintings %}
   <div class="card">
-    <img src="/assets/img/paintings/{{ painting.image }}"
+    <img src="{{ '/assets/img/paintings/' | relative_url }}{{ painting.image }}" 
          alt="{{ painting['image-alt'] | default: painting.title }}">
     <div class="info">
       <h3>{{ painting.title }}</h3>
