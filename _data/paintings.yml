@@ -61,3 +61,11 @@
 - title: "Standpalen"
   year: 2019
   image: "strand_palen.png"
+
+- title: "Zonnebloemen"
+  year: "jaar onbekend"
+  image: "zonnebloemen.png"
+  size: "~70x70"
+  signed: true
+  category: "Bloemen"
+
