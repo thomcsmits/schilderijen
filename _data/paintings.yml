@@ -25,6 +25,9 @@
 - title: "Zijlbootje op het water"
   year: "jaar onbekend"
   image: "bootje.png"
+  size: "20x20"
+  signed: false
+  category: "Zee"
 
 - title: "Duinen"
   year: "jaar onbekend"
