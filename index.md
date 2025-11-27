@@ -11,10 +11,24 @@ layout: home
 
 <hr class="section-divider">
 
+{% assign paintings = site.data.paintings %}
+{% assign categories = paintings | map: 'category' | uniq %}
+<div class="filter-bar-wrapper">
+  <div class="show-all-container">
+    <button class="filter active" data-filter="all">Alle schilderijen</button>
+  </div>
+  <div class="filter-bar">
+    {% for cat in categories %}
+    <button class="filter" data-filter="{{ cat }}">
+      {{ cat | capitalize }}
+    </button>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="gallery">
-  {% assign paintings = site.data.paintings %}
   {% for painting in paintings %}
-  <div class="card">
+  <div class="card {{ painting.category }}">
     <img src="{{ '/assets/img/paintings/' | relative_url }}{{ painting.image }}" 
          alt="{{ painting['image-alt'] | default: painting.title }}">
     <div class="info">
@@ -59,6 +73,50 @@ layout: home
   height: 1px;
   background: linear-gradient(to right, #ccc, #eee);
   margin: 40px 0 30px;
+}
+
+.filter-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.show-all-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.filter:hover {
+  background: #eee;
+  border-color: #bbb;
+  transform: translateY(-1px);
+}
+
+.filter.active {
+  background: #333;
+  border-color: #333;
+  color: #fff;
 }
 
 .gallery {
@@ -144,3 +202,23 @@ layout: home
   }
 }
 </style>
+
+<script>
+document.querySelectorAll(".filter").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const selected = btn.dataset.filter;
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+      if (selected === "all" || card.classList.contains(selected)) {
+        card.style.display = "block";
+      } else {
+        card.style.display = "none";
+      }
+    });
+
+    document.querySelectorAll(".filter").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+  });
+});
+</script>
