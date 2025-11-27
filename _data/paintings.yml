@@ -1,74 +1,207 @@
-- title: "Duinen"
-  year: "jaar onbekend"
-  image: "duinen.png"
-
-- title: "Rode bloemen"
-  year: "jaar onbekend"
-  image: "rode_bloemen.png"
-
 - title: "Zee"
   year: 2013
   image: "zee.png"
+  size: "onbekend"
+  signed: true
+  category: "zee"
+  location: "N"
+
+- title: "Rode bloemen"
+  year: 2012
+  image: "rode_bloemen.png"
+  size: "onbekend"
+  signed: true
+  category: "bloemen"
+  location: "B"
+
+- title: "Duinen"
+  year: "jaar onbekend"
+  image: "duinen.png"
+  size: "20x20"
+  signed: true
+  category: "zee"
+  location: "B"
+
+- title: "Ballerina"
+  year: 2013
+  image: "ballerina.png"
+  size: "onbekend"
+  signed: true
+  category: "personen"
+  location: "B"
 
 - title: "Danseres"
   year: 2010
   image: "danseres.png"
+  size: "onbekend"
+  signed: true
+  category: "personen"
+  location: "N"
 
 - title: "Boslandschap"
-  year: "jaar onbekend"
+  year: 2022
   image: "bos.png"
+  size: "onbekend"
+  signed: false
+  category: "bomen"
+  location: "B"
 
 - title: "Bloemen vaas"
   year: "jaar onbekend"
   image: "blauwe_bloemen.png"
+  size: "onbekend"
+  signed: true
+  category: "bloemen"
+  location: "B"
 
-- title: "Zijlbootje op het water"
+- title: "Asperges"
   year: "jaar onbekend"
-  image: "bootje.png"
-  size: "20x20"
+  image: "asperges.png"
+  size: "onbekend"
   signed: false
-  category: "Zee"
-
-- title: "Duinen"
-  year: "jaar onbekend"
-  image: "duinen2.png"
-
-- title: "Peren"
-  year: "jaar onbekend"
-  image: "peren.png"
+  category: "groente"
+  location: "B"
 
 - title: "Picknick"
   year: "jaar onbekend"
   image: "picknick.png"
+  size: "onbekend"
+  signed: false
+  category: "bomen"
+  location: "B"
+
+- title: "Duinen"
+  year: "jaar onbekend"
+  image: "duinen2.png"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+
+- title: "Peren"
+  year: "jaar onbekend"
+  image: "peren.png"
+  size: "onbekend"
+  signed: false
+  category: "fruit"
+  location: "B"
+
+- title: "Schoentjes"
+  year: "jaar onbekend"
+  image: "schoentjes.png"
+  size: "onbekend"
+  signed: false
+  category: "overig"
+  location: "B"
 
 - title: "Vallei"
   year: "jaar onbekend"
   image: "vallei.png"
+  size: "onbekend"
+  signed: false
+  category: "bomen"
+  location: "B"
 
 - title: "Boot op zee"
   year: 2014
   image: "zee_met_boot.png"
+  size: "onbekend"
+  signed: true
+  category: "zee"
+  location: "B"
+
+- title: "Vasen"
+  year: 2015
+  image: "vasen.png"
+  size: "onbekend"
+  signed: true
+  category: "overig"
+  location: "B"
 
 - title: "Jampotje"
-  year: "jaar onbekend"
+  year: 2017
   image: "jampotje.png"
+  size: "~30x30"
+  signed: true
+  category: "overig"
+  location: "T"
 
 - title: "Citroenen"
   year: "jaar onbekend"
   image: "citroenen.png"
+  size: "30x25"
+  signed: false
+  category: "fruit"
+  location: "B"
 
 - title: "Rode boom"
   year: "jaar onbekend"
   image: "rode_boom.png"
+  size: "onbekend"
+  signed: false
+  category: "bomen"
+  location: "B"
 
 - title: "Standpalen"
   year: 2019
   image: "strand_palen.png"
+  size: "onbekend"
+  signed: true
+  category: "zee"
+  location: "M"
 
 - title: "Zonnebloemen"
   year: "jaar onbekend"
   image: "zonnebloemen.png"
   size: "~70x70"
   signed: true
-  category: "Bloemen"
+  category: "bloemen"
+  location: "B"
 
+- title: "Blauwe tulpen"
+  year: "jaar onbekend"
+  image: "blauwe_tulpen.png"
+  size: "onbekend"
+  signed: false
+  category: "bloemen"
+  location: "B"
+
+- title: "Tulpen"
+  year: "jaar onbekend"
+  image: "tulpen.png"
+  size: "onbekend"
+  signed: false
+  category: "bloemen"
+  location: "B"
+
+- title: "Uien"
+  year: 2015
+  image: "uien.png"
+  size: "30x20"
+  signed: true
+  category: "groente"
+  location: "B"
+
+- title: "Wolken"
+  year: "jaar onbekend"
+  image: "wolken.png"
+  size: "onbekend"
+  signed: false
+  category: "overig"
+  location: "B"
+
+- title: "Zijlbootje op het water"
+  year: "jaar onbekend"
+  image: "bootje.png"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+
+- title: "Strandpaal"
+  year: "jaar onbekend"
+  image: "strandpaal.png"
+  size: "onbekend"
+  signed: false
+  category: "zee"
+  location: "B"
