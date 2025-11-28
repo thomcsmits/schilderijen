@@ -205,3 +205,27 @@
   signed: false
   category: "zee"
   location: "B"
+
+- title: Appels & Uien
+  year: "jaar onbekend"
+  image: "appels_uien.png"
+  size: "onbekend"
+  signed: false
+  category: "fruit"
+  location: "B"
+
+- title: "Appeltjes"
+  year: 2012
+  image: "appeltjes.png"
+  size: "onbekend"
+  signed: true
+  category: "fruit"
+  location: "B"
+
+- title: "Appels"
+  year: "jaar onbekend"
+  image: "appels.png"
+  size: "onbekend"
+  signed: false
+  category: "fruit"
+  location: "B"
