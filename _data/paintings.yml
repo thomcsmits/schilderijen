@@ -190,7 +190,7 @@
   category: "overig"
   location: "B"
 
-- title: "Zijlbootje op het water"
+- title: "Zeilbootje op het water"
   year: "jaar onbekend"
   image: "bootje.png"
   size: "20x20"
@@ -229,3 +229,320 @@
   signed: false
   category: "fruit"
   location: "B"
+
+# here
+
+- title: "abstract"
+  year: "jaar onbekend"
+  image: "abstract.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "abstract2"
+  year: "jaar onbekend"
+  image: "abstract2.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "beroemd"
+  year: "jaar onbekend"
+  image: "beroemd.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemen blauw"
+  year: "jaar onbekend"
+  image: "bloemen_blauw.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemen inzoom"
+  year: "jaar onbekend"
+  image: "bloemen_inzoom.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemen plat"
+  year: "jaar onbekend"
+  image: "bloemen_plat.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemen roze"
+  year: "jaar onbekend"
+  image: "bloemen_roze.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemen warm"
+  year: "jaar onbekend"
+  image: "bloemen_warm.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemenvaas"
+  year: "jaar onbekend"
+  image: "bloemenvaas.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemenvaas2"
+  year: "jaar onbekend"
+  image: "bloemenvaas2.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "bloemenvaas beige"
+  year: "jaar onbekend"
+  image: "bloemenvaas_beige.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "boerderijen"
+  year: "jaar onbekend"
+  image: "boerderijen.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "boot strand"
+  year: "jaar onbekend"
+  image: "boot_strand.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "dorp vuur"
+  year: "jaar onbekend"
+  image: "dorp_vuur.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "dorpje"
+  year: "jaar onbekend"
+  image: "dorpje.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "duinen groot"
+  year: "jaar onbekend"
+  image: "duinen_groot.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "duinen vlak"
+  year: "jaar onbekend"
+  image: "duinen_vlak.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "hortensia"
+  year: "jaar onbekend"
+  image: "hortensia.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "jurken"
+  year: "jaar onbekend"
+  image: "jurken.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "klaprozen veld"
+  year: "jaar onbekend"
+  image: "klaprozen_veld.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "klein"
+  year: "jaar onbekend"
+  image: "klein.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "knoflook"
+  year: "jaar onbekend"
+  image: "knoflook.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "open rug"
+  year: "jaar onbekend"
+  image: "open_rug.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "open rug2"
+  year: "jaar onbekend"
+  image: "open_rug2.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "peren2"
+  year: "jaar onbekend"
+  image: "peren2.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "peren3"
+  year: "jaar onbekend"
+  image: "peren3.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "personen rood"
+  year: "jaar onbekend"
+  image: "personen_rood.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "rode fles"
+  year: "jaar onbekend"
+  image: "rode_fles.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "stoel hoed"
+  year: "jaar onbekend"
+  image: "stoel_hoed.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "uien2"
+  year: "jaar onbekend"
+  image: "uien2.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "uien rood"
+  year: "jaar onbekend"
+  image: "uien_rood.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "vasen wolken"
+  year: "jaar onbekend"
+  image: "vasen_wolken.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "veluwe"
+  year: "jaar onbekend"
+  image: "veluwe.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "vuurtoren"
+  year: "jaar onbekend"
+  image: "vuurtoren.png"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
+
+- title: "paprika uien"
+  year: "jaar onbekend"
+  image: "paprika_uien.jpg"
+  size: "onbekend"
+  signed: false
+  category: "TBD"
+  location: "B"
+  album: false
