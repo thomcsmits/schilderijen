@@ -3,7 +3,7 @@
 YAML_FILE="_data/paintings2.yml"
 
 # List of album folders and corresponding album numbers
-ALBUM_DIRS=("assets/FotoAlbum-1" "assets/FotoAlbum-2" "assets/FotoAlbum-3")
+ALBUM_DIRS=("assets/albums/FotoAlbum-1" "assets/albums/FotoAlbum-2" "assets/albums/FotoAlbum-3")
 ALBUM_NUMS=(1 2 3)
 
 # Loop over each album folder
