@@ -16,13 +16,15 @@
 #   location: "B"
 #   dubbel: true
 
-- title: "Duinen"
-  year: "jaar onbekend"
-  image: "duinen.png"
-  size: "20x20"
-  signed: true
-  category: "zee"
-  location: "B"
+# - title: "Duinen"
+#   year: "jaar onbekend"
+#   image: "duinen.png"
+#   size: "20x20"
+#   signed: true
+#   category: "zee"
+#   location: "B"
+#   album: false
+#   dubbel: true
 
 # - title: "Ballerina"
 #   year: 2013
@@ -60,15 +62,15 @@
 #   location: "B"
 #   dubbel: true
 
-# - title: "Asperges"
-#   year: "jaar onbekend"
-#   image: "asperges.png"
-#   size: "onbekend"
-#   signed: false
-#   category: "groente"
-#   location: "B"
-#   dubbel: true
-#   # TODO
+- title: "Asperges"
+  year: "jaar onbekend"
+  image: "asperges.png"
+  size: "30x40"
+  signed: false
+  category: "fruit"
+  location: "B"
+  dubbel: true
+  album: 3
 
 - title: "Picknick"
   year: "jaar onbekend"
@@ -77,14 +79,17 @@
   signed: false
   category: "landschap"
   location: "B"
+  album: false
 
-- title: "Duinen"
-  year: "jaar onbekend"
-  image: "duinen2.png"
-  size: "20x20"
-  signed: false
-  category: "zee"
-  location: "B"
+# - title: "Duinen"
+#   year: "jaar onbekend"
+#   image: "duinen2.png"
+#   size: "20x20"
+#   signed: false
+#   category: "zee"
+#   location: "B"
+#   album: false
+#   dubbel: true
 
 - title: "Peren"
   year: "jaar onbekend"
@@ -94,6 +99,7 @@
   signed: false
   category: "fruit"
   location: "B"
+  album: false
 
 # - title: "Schoentjes"
 #   year: "jaar onbekend"
@@ -111,6 +117,7 @@
   signed: false
   category: "landschap"
   location: "B"
+  album: false
 
 # - title: "Boot op zee"
 #   year: 2014
@@ -130,24 +137,14 @@
 #   location: "B"
 #   dubbel: true
 
-# - title: "Jampotje"
-#   year: 2017
-#   image: "jampotje.png"
-#   size: "~30x30"
-#   signed: true
-#   category: "overig"
-#   location: "T"
-#   dubbel: true
-
-# - title: "Citroenen"
-#   year: "jaar onbekend"
-#   image: "citroenen.png"
-#   size: "30x25"
-#   signed: false
-#   category: "fruit"
-#   location: "B"
-#   dubbel: true
-#   #TODO!
+- title: "Jampotje"
+  year: 2017
+  image: "jampotje.png"
+  size: "~30x30"
+  signed: true
+  category: "overig"
+  location: "T"
+  album: 2
 
 # - title: "Rode boom"
 #   year: "jaar onbekend"
@@ -165,16 +162,16 @@
   signed: true
   category: "zee"
   location: "M"
+  album: false
 
-# - title: "Zonnebloemen"
-#   year: "jaar onbekend"
-#   image: "zonnebloemen.png"
-#   size: "~70x70"
-#   signed: true
-#   category: "bloemen"
-#   location: "B"
-#   dubbel: true
-#   #TODO!
+- title: "Zonnebloemen"
+  year: "jaar onbekend"
+  image: "zonnebloemen.png"
+  size: "60x60"
+  signed: true
+  category: "bloemen"
+  location: "B"
+  album: 2
 
 - title: "Blauwe tulpen"
   year: "jaar onbekend"
@@ -183,16 +180,17 @@
   signed: false
   category: "bloemen"
   location: "B"
+  album: false
 
-# - title: "Tulpen"
-#   year: "jaar onbekend"
-#   image: "tulpen.png"
-#   size: "onbekend"
-#   signed: false
-#   category: "bloemen"
-#   location: "B"
-#   dubbel: true
-#   #TODO!
+- title: "Tulpen"
+  year: "jaar onbekend"
+  image: "tulpen.png"
+  size: "60x50"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 2
+  
 
 # - title: "Uien"
 #   year: 2015
@@ -227,7 +225,8 @@
   size: "50x60"
   signed: true
   category: "zee"
-  location: "B"
+  location: "T"
+  album: false
 
 # - title: Appels & Uien
 #   year: "jaar onbekend"
@@ -306,17 +305,6 @@
 #   location: "B"
 #   album: false
 #   dubbel: true
-
-# - title: "bloemen plat"
-#   year: "jaar onbekend"
-#   image: "bloemen_plat.png"
-#   size: "onbekend"
-#   signed: false
-#   category: "TBD"
-#   location: "B"
-#   album: false
-#   dubbel: true
-  # TODO!!!
 
 # - title: "bloemen roze"
 #   year: "jaar onbekend"
@@ -450,14 +438,15 @@
 #   album: false
 #   dubbel: true
 
-- title: "klein"
-  year: "jaar onbekend"
-  image: "klein.png"
-  size: "onbekend"
-  signed: false
-  category: "zee"
-  location: "B"
-  album: false
+# - title: "klein"
+#   year: "jaar onbekend"
+#   image: "klein.png"
+#   size: "onbekend"
+#   signed: false
+#   category: "zee"
+#   location: "B"
+#   album: false
+#   dubbel: true
 
 # - title: "knoflook"
 #   year: "jaar onbekend"
@@ -515,14 +504,24 @@
   location: "B"
   album: false
 
-- title: "personen rood"
+- title: "personen rood veld"
   year: "jaar onbekend"
   image: "personen_rood.png"
-  size: "onbekend"
+  size: "60x50"
   signed: false
   category: "personen"
   location: "B"
-  album: false
+  album: 3
+
+# - title: "personen veld"
+#   year: "jaar onbekend"
+#   image: "personen_veld.jpg"
+#   size: "60x50"
+#   signed: false
+#   category: "personen"
+#   location: "B"
+#   album: 3
+#   dubbel: true
 
 # - title: "rode fles"
 #   year: "jaar onbekend"
@@ -608,7 +607,7 @@
   size: "onbekend"
   signed: false
   category: "abstract"
-  location: "B"
+  location: "N"
   album: 1
 
 - title: "abstract huisje"
@@ -617,13 +616,13 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "bloem vaas 2d"
-  year: "30x40"
+  year: "jaar onbekend"
   image: "bloem_vaas_2d.jpg"
-  size: "onbekend"
+  size: "30x40"
   signed: false
   category: "bloemen"
   location: "B"
@@ -689,7 +688,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "bloem vaas groen"
@@ -726,7 +725,7 @@
   size: "60x50"
   signed: true
   category: "bloemen"
-  location: "B"
+  location: "X"
   album: 1
 
 - title: "bloem vaas tulpen"
@@ -735,7 +734,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "boom rood"
@@ -773,7 +772,7 @@
   size: "40x50"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "T"
   album: 1
 
 - title: "landschap grasveld"
@@ -782,7 +781,7 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "landschap rivier rossig"
@@ -791,7 +790,7 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "landschap treurwilgen"
@@ -800,7 +799,7 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "landschap tulpenveld"
@@ -827,7 +826,7 @@
   size: "onbekend"
   signed: false
   category: "personen"
-  location: "B"
+  location: "?"
   album: 1
 
 - title: "straat"
@@ -839,14 +838,15 @@
   location: "B"
   album: 1
 
-- title: "strand trappetje"
-  year: "jaar onbekend"
-  image: "strand_trappetje.jpg"
-  size: "onbekend"
-  signed: false
-  category: "zee"
-  location: "B"
-  album: 1
+# - title: "strand trappetje"
+#   year: "jaar onbekend"
+#   image: "strand_trappetje.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "zee"
+#   location: "B"
+#   album: 1
+#   dubbel: true
 
 - title: "zee boot rechtop"
   year: 2014
@@ -854,7 +854,7 @@
   size: "30x40"
   signed: true
   category: "zee"
-  location: "B"
+  location: "X"
   album: 1
 
 - title: "zee boot scheveningen"
@@ -866,14 +866,14 @@
   location: "B"
   album: 1
 
-- title: "zee bootje"
-  year: "jaar onbekend"
-  image: "zee_bootje.jpg"
-  size: "onbekend"
-  signed: false
-  category: "zee"
-  location: "B"
-  album: 1
+# - title: "zee bootje"
+#   year: "jaar onbekend"
+#   image: "zee_bootje.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "zee"
+#   location: "B"
+#   album: 1
 
 # - title: "zee paal"
 #   year: "jaar onbekend"
@@ -928,7 +928,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "?"
   album: 2
 
 - title: "bloem blauw"
@@ -955,7 +955,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "?"
   album: 2
 
 - title: "bloem klaproos 2"
@@ -964,7 +964,7 @@
   size: "40x50"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "?"
   album: 2
 
 - title: "bloem rood roze"
@@ -972,24 +972,6 @@
   image: "bloem_rood_roze.jpg"
   size: "40x40"
   signed: false
-  category: "bloemen"
-  location: "B"
-  album: 2
-
-- title: "bloem tulpen geel"
-  year: "jaar onbekend"
-  image: "bloem_tulpen_geel.jpg"
-  size: "60x50"
-  signed: false
-  category: "bloemen"
-  location: "B"
-  album: 2
-
-- title: "bloem vaas geel"
-  year: "jaar onbekend"
-  image: "bloem_vaas_geel.jpg"
-  size: "60x60"
-  signed: true
   category: "bloemen"
   location: "B"
   album: 2
@@ -1042,13 +1024,13 @@
   location: "B"
   album: 2
 
-- title: "fruit citroenen"
+- title: "fruit citroene 1"
   year: "jaar onbekend"
   image: "fruit_appels_groen.jpg"
   size: "30x24"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "M"
   album: 2
 
 - title: "fruit appels ui"
@@ -1060,13 +1042,13 @@
   location: "B"
   album: 2
 
-- title: "fruit citroenen"
+- title: "fruit citroenen 2"
   year: "jaar onbekend"
-  image: "fruit_citroenen.jpg"
+  image: "citroenen.png"
   size: "30x24"
   signed: true
   category: "fruit"
-  location: "B"
+  location: "T"
   album: 2
 
 - title: "fruit granaatappel"
@@ -1075,7 +1057,7 @@
   size: "40x30"
   signed: true
   category: "fruit"
-  location: "B"
+  location: "X"
   album: 2
 
 - title: "fruit knoflook"
@@ -1102,7 +1084,7 @@
   size: "onbekend"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "?"
   album: 2
 
 - title: "fruit schets"
@@ -1130,7 +1112,7 @@
   size: "onbekend"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "?"
   album: 2
 
 - title: "fruit uien"
@@ -1160,22 +1142,13 @@
   location: "B"
   album: 2
 
-- title: "vaas jampot"
-  year: "jaar onbekend"
-  image: "vaas_jampot.jpg"
-  size: "onbekend"
-  signed: false
-  category: "vasen"
-  location: "B"
-  album: 2
-
 - title: "vaas rossig"
   year: "jaar onbekend"
   image: "vaas_rossig.jpg"
   size: "onbekend"
   signed: false
   category: "vasen"
-  location: "B"
+  location: "?"
   album: 2
 
 - title: "kannen op aquarel before"
@@ -1213,7 +1186,7 @@
   size: "onbekend"
   signed: false
   category: "abstract"
-  location: "B"
+  location: "?"
   album: 3
 
 - title: "abstract landschap vuur"
@@ -1222,16 +1195,7 @@
   size: "onbekend"
   signed: false
   category: "abstract"
-  location: "B"
-  album: 3
-
-- title: "fruit asperges"
-  year: "jaar onbekend"
-  image: "fruit_asperges.jpg"
-  size: "30x40"
-  signed: false
-  category: "fruit"
-  location: "B"
+  location: "?"
   album: 3
 
 - title: "fruit mais"
@@ -1240,7 +1204,7 @@
   size: "onbekend"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "?"
   album: 3
 
 - title: "kind schoentjes"
@@ -1278,17 +1242,27 @@
   size: "onbekend"
   signed: false
   category: "personen"
-  location: "B"
+  location: "?"
   album: 3
 
-- title: "personen hoofddoek2"
+- title: "personen hoofddoek 2"
   year: "jaar onbekend"
   image: "personen_hoofddoek2.jpg"
   size: "50x50"
   signed: false
   category: "personen"
-  location: "B"
+  location: "A"
   album: 3
+
+
+- title: personen hoofddoek 3
+  year: 2012
+  image: "personen_hoofddoek3.jpg"
+  size: "onbekend"
+  signed: true
+  category: "personen"
+  location: "A"
+  album: false
 
 - title: "personen hoofden"
   year: "jaar onbekend"
@@ -1296,7 +1270,7 @@
   size: "onbekend"
   signed: false
   category: "personen"
-  location: "B"
+  location: "?"
   album: 3
 
 - title: "personen schets draai"
@@ -1315,7 +1289,7 @@
   size: "onbekend"
   signed: false
   category: "personen"
-  location: "B"
+  location: "?"
   album: 3
 
 - title: "personen schets moeder"
@@ -1328,31 +1302,13 @@
   album: 3
   notes: ingelijst
 
-- title: "personen schets zelfportret"
-  year: "jaar onbekend"
-  image: "personen_schets_zelfportret.jpg"
-  size: "onbekend"
-  signed: false
-  category: "personen"
-  location: "B"
-  album: 3
-
-- title: "personen veld"
-  year: "jaar onbekend"
-  image: "personen_veld.jpg"
-  size: "60x50"
-  signed: false
-  category: "personen"
-  location: "B"
-  album: 3
-
 - title: "personen vinger"
   year: "jaar onbekend"
   image: "personen_vinger.jpg"
   size: "onbekend"
   signed: false
   category: "personen"
-  location: "B"
+  location: "?"
   album: 3
 
 - title: "personen vrouw"
@@ -1372,26 +1328,6 @@
   category: "personen"
   location: "B"
   album: 3
-
-- title: "personen zelfportret"
-  year: "jaar onbekend"
-  image: "personen_zelfportret.jpg"
-  size: "onbekend"
-  signed: false
-  category: "personen"
-  location: "B"
-  album: 3
-
-- title: klein blauw doek 
-  size: 20x20
-  signed: false
-  year: unknown
-
-- title: 6x klein doek
-  size: 20x20
-
-- title: weg met huisjes en boom klein
-  size: 24x30
 
 - title: kannen op de tafel 
   year: "jaar onbekend"
@@ -1429,6 +1365,16 @@
   location: "B"
   album: false
 
+# - title: "zee bootje"
+#   year: "jaar onbekend"
+#   image: "zee_bootje.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "zee"
+#   location: "B"
+#   album: 1
+#   dubbel: true
+
 - title: zee klein 2 (motorbootje)
   year: "jaar onbekend"
   image: "zee_klein_2.jpg"
@@ -1460,16 +1406,61 @@
   year: "jaar onbekend"
   image: "zee_klein_5.jpg"
   size: "20x20"
-  signed: false
+  signed: true
   category: "zee"
   location: "B"
   album: false
+
+- title: "strand trappetje"
+  year: "jaar onbekend"
+  image: "strand_trappetje.jpg"
+  size: "onbekend"
+  signed: false
+  category: "zee"
+  location: "?"
+  album: 1
 
 - title: bloemen boeket
   year: 2011
   image: "bloemen_boeket.jpg"
   size: "onbekend"
-  signed: ftruee
+  signed: true
   category: "bloemen"
   location: "P"
   album: false
+
+- title: knoflook 2
+  year: 2013
+  image: "fruit_knoflook_ui.jpg"
+  size: "onbekend"
+  signed: true
+  category: "fruit"
+  location: "A"
+  album: false
+
+- title: personen schaatsers
+  year: 2017
+  image: "personen_schaatsers.jpg"
+  size: "onbekend"
+  signed: true
+  category: "personen"
+  location: "A"
+  album: false
+
+# - title: "personen schets zelfportret"
+#   year: "jaar onbekend"
+#   image: "personen_schets_zelfportret.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "personen"
+#   location: "?"
+#   album: 3
+  
+# - title: "personen zelfportret"
+#   year: "jaar onbekend"
+#   image: "personen_zelfportret.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "personen"
+#   location: "B"
+#   album: 3
