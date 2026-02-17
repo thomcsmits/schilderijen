@@ -72,7 +72,7 @@
 
 - title: "Picknick"
   year: "jaar onbekend"
-  image: "picknick.png"
+  image: "landschap_picknick.jpg"
   size: "50x40"
   signed: false
   category: "landschap"
@@ -260,7 +260,7 @@
 
 - title: "abstract"
   year: 1996
-  image: "abstract.png"
+  image: "abstract.jpg"
   size: "50x60"
   signed: true
   category: "abstract"
@@ -388,8 +388,8 @@
 
 - title: "dorp vuur"
   year: "jaar onbekend"
-  image: "dorp_vuur.png"
-  size: "onbekend"
+  image: "landschap_dorp_vuur.jpg"
+  size: "24x30"
   signed: false
   category: "landschap"
   location: "B"
@@ -397,7 +397,7 @@
 
 - title: "dorpje"
   year: "jaar onbekend"
-  image: "dorpje.png"
+  image: "landschap_dorpje.jpg"
   size: "70x50"
   signed: false
   category: "landschap"
@@ -469,14 +469,23 @@
 #   album: false
 #   dubbel: true
 
-- title: "open rug"
+- title: "open rug (groot)"
   year: "jaar onbekend"
-  image: "open_rug.png"
+  image: "personen_rug_groot.jpg"
   size: "50x60"
   signed: false
   category: "personen"
   location: "B"
   album: false
+
+- title: "open rug (klein)"
+  year: "jaar onbekend"
+  image: "personen_rug.jpg"
+  size: "50x40"
+  signed: true
+  category: "personen"
+  location: "B"
+  album: 3
 
 # - title: "open rug2"
 #   year: "jaar onbekend"
@@ -565,7 +574,7 @@
 
 - title: "veluwe"
   year: "jaar onbekend"
-  image: "veluwe.png"
+  image: "landschap_veluwe.jpg"
   size: "50x40"
   signed: false
   category: "landschap"
@@ -1169,14 +1178,16 @@
   location: "B"
   album: 2
 
-- title: "vaas verschillend"
+- title: "kannen op aquarel before"
   year: "jaar onbekend"
   image: "vaas_verschillend.jpg"
-  size: "onbekend"
-  signed: false
+  size: "50x60"
+  signed: true
   category: "vasen"
   location: "B"
   album: 2
+  medium: papier
+  notes: ingelijst
 
 - title: "wolken"
   year: 1989
@@ -1288,15 +1299,6 @@
   location: "B"
   album: 3
 
-- title: "personen rug"
-  year: "jaar onbekend"
-  image: "personen_rug.jpg"
-  size: "50x40"
-  signed: true
-  category: "personen"
-  location: "B"
-  album: 3
-
 - title: "personen schets draai"
   year: "jaar onbekend"
   image: "personen_schets_draai.jpg"
@@ -1391,15 +1393,83 @@
 - title: weg met huisjes en boom klein
   size: 24x30
 
-- title: kannen op aquarel
-  signed: true
-  size: 50x60
-  medium: papier
-  notes: ingelijst
-  # TODO: check vaas verschillend
-
 - title: kannen op de tafel 
-  size: 40x40
+  year: "jaar onbekend"
+  image: "vaas_keuken.jpg"
+  size: "40x40"
+  signed: false
+  category: "vasen"
+  location: "B"
+  album: false
 
 - title: peren op de tafel
-  size: 40x30
+  year: "jaar onbekend"
+  image: "fruit_peren_blauw.jpg"
+  size: "40x30"
+  signed: false
+  category: "fruit"
+  location: "B"
+  album: false
+
+- title: bloem klein
+  year: "jaar onbekend"
+  image: "bloem_klein.jpg"
+  size: "20x20"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: false
+
+- title: zee klein 1 (zeilbootje)
+  year: "jaar onbekend"
+  image: "zee_klein_1.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: zee klein 2 (motorbootje)
+  year: "jaar onbekend"
+  image: "zee_klein_2.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: zee klein 3 (paal)
+  year: "jaar onbekend"
+  image: "zee_klein_3.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: zee klein 4 (strand paaltjes)
+  year: "jaar onbekend"
+  image: "zee_klein_4.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: zee klein 5 (strand weggetje)
+  year: "jaar onbekend"
+  image: "zee_klein_5.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: bloemen boeket
+  year: 2011
+  image: "bloemen_boeket.jpg"
+  size: "onbekend"
+  signed: ftruee
+  category: "bloemen"
+  location: "P"
+  album: false
