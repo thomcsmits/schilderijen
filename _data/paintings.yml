@@ -5,227 +5,1072 @@
   signed: true
   category: "zee"
   location: "N"
+  album: 1
 
-- title: "Rode bloemen"
-  year: 2012
-  image: "rode_bloemen.png"
-  size: "onbekend"
-  signed: true
-  category: "bloemen"
-  location: "B"
-
-- title: "Duinen"
+- title: "Tulpenveld"
   year: "jaar onbekend"
-  image: "duinen.png"
-  size: "20x20"
-  signed: true
-  category: "zee"
-  location: "B"
-
-- title: "Ballerina"
-  year: 2013
-  image: "ballerina.png"
-  size: "onbekend"
-  signed: true
-  category: "personen"
-  location: "B"
-
-- title: "Danseres"
-  year: 2010
-  image: "danseres.png"
-  size: "onbekend"
-  signed: true
-  category: "personen"
-  location: "N"
-
-- title: "Boslandschap"
-  year: 2022
-  image: "bos.png"
-  size: "onbekend"
+  image: "landschap_tulpenveld.jpg"
+  size: "50x70"
   signed: false
-  category: "bomen"
+  category: "landschap"
   location: "B"
+  album: 1
 
-- title: "Bloemen vaas"
+- title: "Tulpen"
   year: "jaar onbekend"
-  image: "blauwe_bloemen.png"
-  size: "onbekend"
-  signed: true
+  image: "tulpen.png"
+  size: "60x50"
+  signed: false
   category: "bloemen"
   location: "B"
+  album: 2
 
 - title: "Asperges"
   year: "jaar onbekend"
   image: "asperges.png"
-  size: "onbekend"
-  signed: false
-  category: "groente"
-  location: "B"
-
-- title: "Picknick"
-  year: "jaar onbekend"
-  image: "picknick.png"
-  size: "onbekend"
-  signed: false
-  category: "bomen"
-  location: "B"
-
-- title: "Duinen"
-  year: "jaar onbekend"
-  image: "duinen2.png"
-  size: "20x20"
-  signed: false
-  category: "zee"
-  location: "B"
-
-- title: "Peren"
-  year: "jaar onbekend"
-  image: "peren.png"
-  size: "onbekend"
+  size: "30x40"
   signed: false
   category: "fruit"
   location: "B"
+  album: 3
 
-- title: "Schoentjes"
+- title: "Hortensia"
   year: "jaar onbekend"
-  image: "schoentjes.png"
-  size: "onbekend"
+  image: "hortensia.png"
+  size: "40x50"
   signed: false
-  category: "overig"
+  category: "bloemen"
   location: "B"
+  album: false
 
-- title: "Vallei"
+- title: "Rode uien (staand)"
   year: "jaar onbekend"
-  image: "vallei.png"
-  size: "onbekend"
-  signed: false
-  category: "bomen"
-  location: "B"
-
-- title: "Boot op zee"
-  year: 2014
-  image: "zee_met_boot.png"
-  size: "onbekend"
+  image: "uien_rood.png"
+  size: "30x40"
   signed: true
-  category: "zee"
+  category: "fruit"
   location: "B"
-
-- title: "Vasen"
-  year: 2015
-  image: "vasen.png"
-  size: "onbekend"
-  signed: true
-  category: "overig"
-  location: "B"
+  album: false
 
 - title: "Jampotje"
   year: 2017
-  image: "jampotje.png"
+  image: "vaas_jampot.jpg"
   size: "~30x30"
   signed: true
-  category: "overig"
+  category: "vazen"
   location: "T"
+  album: 2
 
-- title: "Citroenen"
-  year: "jaar onbekend"
-  image: "citroenen.png"
-  size: "30x25"
-  signed: false
-  category: "fruit"
-  location: "B"
-
-- title: "Rode boom"
-  year: "jaar onbekend"
-  image: "rode_boom.png"
-  size: "onbekend"
-  signed: false
-  category: "bomen"
-  location: "B"
-
-- title: "Standpalen"
+- title: "Strandpalen (liggend)"
   year: 2019
   image: "strand_palen.png"
   size: "onbekend"
   signed: true
   category: "zee"
   location: "M"
+  album: false
 
 - title: "Zonnebloemen"
   year: "jaar onbekend"
   image: "zonnebloemen.png"
-  size: "~70x70"
+  size: "60x60"
   signed: true
   category: "bloemen"
   location: "B"
+  album: 2
+
+- title: "Vaas met roze bloemen (zwart)"
+  year: 2018
+  image: "bloem_vaas_roze.jpg"
+  size: "60x50"
+  signed: true
+  category: "bloemen"
+  location: "X"
+  album: 1
+
+- title: "Strandpaal (staand)"
+  year: 2012
+  image: "strandpaal.png"
+  size: "50x60"
+  signed: true
+  category: "zee"
+  location: "T"
+  album: false
+
+- title: "Vaas met blauwgroene bloemen"
+  year: 2013
+  image: "bloem_vaas_blauw_groen.jpg"
+  size: "50x70"
+  signed: true
+  category: "bloemen"
+  location: "B"
+  album: 1
+  
+- title: "Peren (bruin)"
+  year: "jaar onbekend"
+  image: "peren.png"
+  size: "20x30"
+  medium: "dun doek"
+  signed: false
+  category: "fruit"
+  location: "B"
+  album: false
+
+- title: "Abstract"
+  year: 1996
+  image: "abstract.jpg"
+  size: "50x60"
+  signed: true
+  category: "abstract"
+  location: "B"
+  album: false
+
+
+- title: "Groot boeket"
+  year: 2018
+  image: "bloemen_warm.png"
+  size: "50x50"
+  signed: true
+  category: "bloemen"
+  location: "B"
+  album: false
+
+- title: "Picknick"
+  year: "jaar onbekend"
+  image: "landschap_picknick.jpg"
+  size: "50x40"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: false
+
+- title: "Boerderijen"
+  year: 2018
+  image: "boerderijen.png"
+  size: "70x50"
+  signed: true
+  category: "landschap"
+  location: "B"
+  album: false
+
+- title: "Dorp met vuur"
+  year: "jaar onbekend"
+  image: "landschap_dorp_vuur.jpg"
+  size: "24x30"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: false
+
+- title: "Dorpje met kerk"
+  year: "jaar onbekend"
+  image: "landschap_dorpje.jpg"
+  size: "70x50"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: false
+
+- title: "Grote duinen"
+  year: "jaar onbekend"
+  image: "duinen_groot.png"
+  size: "40x50"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: "Vlakke duinen"
+  year: "jaar onbekend"
+  image: "duinen_vlak.png"
+  size: "50x40"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: "Personen in jurken"
+  year: 2017
+  image: "jurken.png"
+  size: "50x50"
+  signed: true
+  category: "personen"
+  location: "B"
+  album: false
+
+- title: "Open rug (groot)"
+  year: "jaar onbekend"
+  image: "personen_rug_groot.jpg"
+  size: "50x60"
+  signed: false
+  category: "personen"
+  location: "B"
+  album: false
+
+- title: "Open rug (klein)"
+  year: "jaar onbekend"
+  image: "personen_rug.jpg"
+  size: "50x40"
+  signed: true
+  category: "personen"
+  location: "B"
+  album: 3
+
+- title: "Peren (grijsblauw)"
+  year: "jaar onbekend"
+  image: "peren2.png"
+  size: "30x24"
+  signed: false
+  category: "fruit"
+  location: "B"
+  album: false
+
+- title: "Peren (wit)"
+  year: 2014
+  image: "peren3.png"
+  size: "40x30"
+  signed: true
+  category: "fruit"
+  location: "B"
+  album: false
+
+- title: "Peren (lichtblauw)"
+  year: "jaar onbekend"
+  image: "fruit_peren_blauw.jpg"
+  size: "40x30"
+  signed: false
+  category: "fruit"
+  location: "B"
+  album: false
+
+- title: "Vallei"
+  year: "jaar onbekend"
+  image: "vallei.png"
+  size: "38x46"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: false
+
+- title: "Personen in tulpenveld"
+  year: "jaar onbekend"
+  image: "personen_rood.png"
+  size: "60x50"
+  signed: false
+  category: "personen"
+  location: "B"
+  album: 3
+
+- title: "Veluwe"
+  year: "jaar onbekend"
+  image: "landschap_veluwe.jpg"
+  size: "50x40"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: false
+
+- title: "Vuurtoren"
+  year: 2019
+  image: "vuurtoren.png"
+  size: "40x50"
+  signed: true
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: "Abstracte danseres"
+  year: 2010
+  image: "abstract_danseres.jpg"
+  size: "onbekend"
+  signed: true
+  category: "abstract"
+  location: "N"
+  album: 1
+
+- title: "Vazen met wolken"
+  year: "jaar onbekend"
+  image: "vasen_wolken.png"
+  size: "70x50"
+  signed: false
+  category: "vazen"
+  location: "B"
+  album: false
+
+- title: "Abstract huisje"
+  year: "jaar onbekend"
+  image: "abstract_huisje.jpg"
+  size: "onbekend"
+  signed: false
+  category: "landschap"
+  location: "?"
+  album: 1
+
+- title: "Bloemen in vaas 2D"
+  year: "jaar onbekend"
+  image: "bloem_vaas_2d.jpg"
+  size: "30x40"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 1
+
+- title: "Bloemen in vaas met hangende blaadjes"
+  year: "jaar onbekend"
+  image: "bloem_vaas_blaadjes.jpg"
+  size: "50x40"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 1
+
+- title: "Abstract vaas blauw"
+  year: 2015
+  image: "bloem_vaas_blauw_abstract.jpg"
+  size: "40x50"
+  signed: true
+  category: "vazen"
+  location: "B"
+  album: 1
+
+- title: "Blauw rossige vazen"
+  year: 2017
+  image: "bloem_vaas_blauw_abstract_rossig.jpg"
+  size: "50x60"
+  signed: true
+  category: "vazen"
+  location: "B"
+  album: 1
+
+- title: "Vierkante vaas met bloem"
+  year: 2014
+  image: "bloem_vaas_blauw_vierkant.jpg"
+  size: "40x50"
+  signed: true
+  category: "vazen"
+  location: "B"
+  album: 1
+
+- title: "Roze en witte bloemen in blauwe vaas"
+  year: "jaar onbekend"
+  image: "bloem_vaas_blauw_wit_rood.jpg"
+  size: "40x50"
+  signed: true
+  category: "bloemen"
+  location: "B"
+  album: 1
+
+- title: "Vaas met roze bloemen (blauw en geel)"
+  year: "jaar onbekend"
+  image: "bloem_vaas_blauwe_achtergrond.jpg"
+  size: "onbekend"
+  signed: false
+  category: "bloemen"
+  location: "?"
+  album: 1
+
+- title: "Vaas met roze bloemen (groen)"
+  year: 2019
+  image: "bloem_vaas_groen.jpg"
+  size: "40x50"
+  signed: true
+  category: "bloemen"
+  location: "B"
+  album: 1
+
+- title: "Vaas met hortensia aquarel"
+  year: "jaar onbekend"
+  image: "bloem_vaas_hortensia.jpg"
+  size: "40x30"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 1
+  medium: "papier"
+
+- title: "Vaas met rode bloemen"
+  year: 2012
+  image: "bloem_vaas_rodig.jpg"
+  size: "40x40"
+  signed: true
+  category: "bloemen"
+  location: "B"
+  album: 1
+
+- title: "Vaas met paarse tulpen"
+  year: "jaar onbekend"
+  image: "bloem_vaas_tulpen.jpg"
+  size: "onbekend"
+  signed: false
+  category: "bloemen"
+  location: "?"
+  album: 1
+
+- title: "Rode boom"
+  year: "jaar onbekend"
+  image: "boom_rood.jpg"
+  size: "50x40"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: 1
+
+- title: "Beige landschap"
+  year: "jaar onbekend"
+  image: "landschap_beige.jpg"
+  size: "40x30"
+  signed: false
+  category: "landschap"
+  location: "B"
+  album: 1
+  medium: "papier"
+
+- title: "Grasveld"
+  year: "jaar onbekend"
+  image: "landschap_grasveld.jpg"
+  size: "onbekend"
+  signed: false
+  category: "landschap"
+  location: "?"
+  album: 1
+
+- title: "Bos"
+  year: 2022
+  image: "landschap_bos.jpg"
+  size: "40x50"
+  signed: false
+  category: "landschap"
+  location: "T"
+  album: 1
+
+- title: "Rivier met rode lucht"
+  year: "jaar onbekend"
+  image: "landschap_rivier_rossig.jpg"
+  size: "onbekend"
+  signed: false
+  category: "landschap"
+  location: "?"
+  album: 1
+
+- title: "Treurwilgen"
+  year: "jaar onbekend"
+  image: "landschap_treurwilgen.jpg"
+  size: "onbekend"
+  signed: false
+  category: "landschap"
+  location: "?"
+  album: 1
+
+- title: "Weggetje door bomen"
+  year: 2019
+  image: "landschap_weggetje.jpg"
+  size: "40x50"
+  signed: true
+  category: "landschap"
+  location: "B"
+  album: 1
+
+- title: "Drie vrouwen"
+  year: "jaar onbekend"
+  image: "personen_drie_vrouwen.jpg"
+  size: "onbekend"
+  signed: false
+  category: "personen"
+  location: "H"
+  album: 1
+
+- title: "Boot (staand)"
+  year: 2014
+  image: "zee_boot_rechtop.jpg"
+  size: "30x40"
+  signed: true
+  category: "zee"
+  location: "X"
+  album: 1
+
+- title: "Straat"
+  year: "jaar onbekend"
+  image: "straat.jpg"
+  size: "40x50"
+  signed: true
+  category: "landschap"
+  location: "T"
+  album: 1
+
+- title: "Boot in Scheveningen"
+  year: 2018
+  image: "zee_boot_scheveningen.jpg"
+  size: "40x50"
+  signed: true
+  category: "zee"
+  location: "B"
+  album: 1
+
+- title: "Zonsondergang"
+  year: "jaar onbekend"
+  image: "zee_zonsondergang.jpg"
+  size: "50x60"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: 1
+
+- title: "Abstracte golven"
+  year: "jaar onbekend"
+  image: "abstract_golven.jpg"
+  size: "50x60"
+  signed: false
+  category: "abstract"
+  location: "B"
+  album: 2
+
+- title: "Abstracte kleuren"
+  year: "jaar onbekend"
+  image: "abstract_kleuren.jpg"
+  size: "50x40"
+  signed: false
+  category: "abstract"
+  location: "B"
+  album: 2
+  medium: "papier"
+
+- title: "Abstract rood"
+  year: "jaar onbekend"
+  image: "abstract_rood.jpg"
+  size: "onbekend"
+  signed: false
+  category: "abstract"
+  location: "B"
+  album: 2
+
+- title: "Grote blauwe bloem"
+  year: "jaar onbekend"
+  image: "bloem_blauw.jpg"
+  size: "70x50"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 2
 
 - title: "Blauwe tulpen"
   year: "jaar onbekend"
   image: "blauwe_tulpen.png"
-  size: "onbekend"
+  size: "30x30"
   signed: false
   category: "bloemen"
   location: "B"
+  album: false
 
-- title: "Tulpen"
+- title: "Blauwe bloemen met gele omlijning"
   year: "jaar onbekend"
-  image: "tulpen.png"
-  size: "onbekend"
+  image: "bloem_blauw_geel_omlijnd.jpg"
+  size: "50x50"
   signed: false
   category: "bloemen"
   location: "B"
+  album: 2
 
-- title: "Uien"
-  year: 2015
-  image: "uien.png"
-  size: "30x20"
+- title: "Abstracte bloemen"
+  year: "jaar onbekend"
+  image: "bloem_abstract.jpg"
+  size: "onbekend"
+  signed: false
+  category: "bloemen"
+  location: "?"
+  album: 2
+
+- title: "Klaproos (liggend)"
+  year: "jaar onbekend"
+  image: "bloem_klaproos.jpg"
+  size: "onbekend"
+  signed: false
+  category: "bloemen"
+  location: "?"
+  album: 2
+
+- title: "Klaproos (staand)"
+  year: "jaar onbekend"
+  image: "bloem_klaproos_2.jpg"
+  size: "40x50"
+  signed: false
+  category: "bloemen"
+  location: "?"
+  album: 2
+
+- title: "Bloemen boeket met rode en roze bloemen"
+  year: "jaar onbekend"
+  image: "bloem_rood_roze.jpg"
+  size: "40x40"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 2
+
+- title: "Vaas met hyacinth abstract aquarel"
+  year: "jaar onbekend"
+  image: "bloem_vaas_hyacinth_abstract.jpg"
+  size: "40x50"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 2
+  notes: ingelijst
+  medium: papier
+
+- title: "Vaas met kleurrijke bloemen (wit)"
+  year: "jaar onbekend"
+  image: "bloem_vaas_kleurijk.jpg"
+  size: "40x50"
   signed: true
-  category: "groente"
+  category: "bloemen"
   location: "B"
+  album: 2
 
-- title: "Wolken"
-  year: 1989
-  image: "wolken.png"
+- title: "Bloemen waterverf"
+  year: "jaar onbekend"
+  image: "bloem_waterverf.jpg"
+  size: "40x30"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 2
+  medium: "papier"
+
+- title: "Witte bloemen (groen)"
+  year: "jaar onbekend"
+  image: "bloem_wit.jpg"
+  size: "40x50"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: 2
+
+- title: "Zonnebloem"
+  year: "jaar onbekend"
+  image: "bloem_zonnebloem.jpg"
   size: "onbekend"
   signed: false
-  category: "overig"
+  category: "bloemen"
   location: "B"
+  album: 2
 
-- title: "Zijlbootje op het water"
+- title: "Tros citroenen"
   year: "jaar onbekend"
-  image: "bootje.png"
+  image: "fruit_appels_groen.jpg"
+  size: "30x24"
+  signed: false
+  category: "fruit"
+  location: "M"
+  album: 2
+
+- title: "Appels en uien"
+  year: "jaar onbekend"
+  image: "fruit_appels_ui.jpg"
+  size: "40x40"
+  signed: false
+  category: "fruit"
+  location: "B"
+  album: 2
+
+- title: "Mand citroenen"
+  year: "jaar onbekend"
+  image: "citroenen.png"
+  size: "30x24"
+  signed: true
+  category: "fruit"
+  location: "T"
+  album: 2
+
+- title: "Prei"
+  year: "jaar onbekend"
+  image: "fruit_prei.jpg"
+  size: "onbekend"
+  signed: false
+  category: "fruit"
+  location: "?"
+  album: 2
+
+- title: "Knoflook 1"
+  year: 2013
+  image: "fruit_knoflook_ui.jpg"
+  size: "onbekend"
+  signed: true
+  category: "fruit"
+  location: "A"
+  album: false
+
+- title: "Knoflook 2"
+  year: 2014
+  image: "fruit_knoflook.jpg"
+  size: "30x40"
+  signed: true
+  category: "fruit"
+  location: "B"
+  album: 2
+
+- title: "Granaatappels"
+  year: 2012
+  image: "fruit_granaatappel.jpg"
+  size: "40x30"
+  signed: true
+  category: "fruit"
+  location: "X"
+  album: 2
+  
+- title: "Paprika"
+  year: 2013
+  image: "fruit_paprika.jpg"
+  size: "40x40"
+  signed: true
+  category: "fruit"
+  location: "B"
+  album: 2
+
+- title: "Schets van fruit"
+  year: "jaar onbekend"
+  image: "fruit_schets.jpg"
+  size: "40x30"
+  signed: false
+  category: "fruit"
+  location: "B"
+  album: 2
+  notes: ingelijst
+
+- title: "Uien (wit)"
+  year: 2012
+  image: "fruit_ui.jpg"
+  size: "30x40"
+  signed: true
+  category: "fruit"
+  location: "B"
+  album: 2
+
+- title: "Rode uien (liggend)"
+  year: "jaar onbekend"
+  image: "fruit_ui_rood.jpg"
+  size: "onbekend"
+  signed: false
+  category: "fruit"
+  location: "?"
+  album: 2
+
+- title: "Uien (blauw)"
+  year: 2015
+  image: "fruit_uien.jpg"
+  size: "30x40"
+  signed: true
+  category: "fruit"
+  location: "B"
+  album: 2
+
+- title: "Vaas abstract"
+  year: "60x80"
+  image: "vaas_abstract.jpg"
+  size: "onbekend"
+  signed: false
+  category: "vazen"
+  location: "B"
+  album: 2
+
+- title: "Blauwe vazen"
+  year: 2015
+  image: "vaas_blauw.jpg"
+  size: "30x40"
+  signed: true
+  category: "vazen"
+  location: "B"
+  album: 2
+
+- title: "Roze vazen en kannen"
+  year: "jaar onbekend"
+  image: "vaas_rossig.jpg"
+  size: "onbekend"
+  signed: false
+  category: "vazen"
+  location: "?"
+  album: 2
+
+- title: "Kannen op aquarel"
+  year: "jaar onbekend"
+  image: "vaas_verschillend.jpg"
+  size: "50x60"
+  signed: true
+  category: "vazen"
+  location: "B"
+  album: 2
+  medium: papier
+  notes: ingelijst
+
+- title: "Abstracte wolken"
+  year: 1989
+  image: "wolken.jpg"
+  size: "50x50"
+  signed: false
+  category: "abstract"
+  location: "B"
+  album: 2
+
+- title: "Abstracte wolken met stippen"
+  year: 2019
+  image: "wolken_stippen.jpg"
+  size: "40x40"
+  signed: true
+  category: "abstract"
+  location: "B"
+  album: 2
+
+- title: "Mais"
+  year: "jaar onbekend"
+  image: "fruit_mais.jpg"
+  size: "onbekend"
+  signed: false
+  category: "fruit"
+  location: "?"
+  album: 3
+
+- title: "Schoentjes"
+  year: "jaar onbekend"
+  image: "kind_schoentjes.jpg"
+  size: "30x24"
+  signed: false
+  category: "kind"
+  location: "B"
+  album: 3
+
+- title: "Teddybeer"
+  year: 1994
+  image: "kind_teddybeer.jpg"
+  size: "40x50"
+  signed: true
+  category: "kind"
+  location: "B"
+  album: 3
+  medium: "papier"
+  notes: ingelijst, enige smits-brandt
+
+- title: "Abstracte anemoon"
+  year: "jaar onbekend"
+  image: "abstract_anemoon.jpg"
+  size: "onbekend"
+  signed: false
+  category: "abstract"
+  location: "?"
+  album: 3
+
+- title: "Abstract landschap in vuur"
+  year: "jaar onbekend"
+  image: "abstract_landschap_vuur.jpg"
+  size: "onbekend"
+  signed: false
+  category: "abstract"
+  location: "H"
+  album: 3
+
+- title: "Ballerina"
+  year: 2013
+  image: "personen_ballet.jpg"
+  size: "30x40"
+  signed: true
+  category: "personen"
+  location: "B"
+  album: 3
+
+- title: "Hoofddoek 1"
+  year: "jaar onbekend"
+  image: "personen_hoofddoek.jpg"
+  size: "onbekend"
+  signed: false
+  category: "personen"
+  location: "?"
+  album: 3
+
+- title: "Hoofddoek 2"
+  year: "jaar onbekend"
+  image: "personen_hoofddoek2.jpg"
+  size: "50x50"
+  signed: false
+  category: "personen"
+  location: "A"
+  album: 3
+
+- title: "Hoofddoek 3"
+  year: 2012
+  image: "personen_hoofddoek3.jpg"
+  size: "onbekend"
+  signed: true
+  category: "personen"
+  location: "A"
+  album: false
+
+- title: "Personen (blauw)"
+  year: "jaar onbekend"
+  image: "personen_hoofden.jpg"
+  size: "onbekend"
+  signed: false
+  category: "personen"
+  location: "?"
+  album: 3
+
+- title: "Schets van gedraaid persoon"
+  year: "jaar onbekend"
+  image: "personen_schets_draai.jpg"
+  size: "40x60"
+  signed: false
+  category: "personen"
+  location: "B"
+  album: 3
+  medium: "papier"
+
+- title: "Schets van man met bril"
+  year: "jaar onbekend"
+  image: "personen_schets_man.jpg"
+  size: "onbekend"
+  signed: false
+  category: "personen"
+  location: "?"
+  album: 3
+
+- title: "Schets moeder met kind"
+  year: "jaar onbekend"
+  image: "personen_schets_moeder.jpg"
+  size: "30x43"
+  signed: false
+  category: "personen"
+  location: "B"
+  album: 3
+  notes: ingelijst
+
+- title: "Persoon met vinger"
+  year: "jaar onbekend"
+  image: "personen_vinger.jpg"
+  size: "onbekend"
+  signed: false
+  category: "personen"
+  location: "?"
+  album: 3
+
+- title: "Buste vrouw"
+  year: "jaar onbekend"
+  image: "personen_vrouw.jpg"
+  size: "40x50"
+  signed: false
+  category: "personen"
+  location: "B"
+  album: 3
+
+- title: "Vrouw met hoed"
+  year: "jaar onbekend"
+  image: "personen_vrouw_hoed.jpg"
+  size: "40x50"
+  signed: true
+  category: "personen"
+  location: "B"
+  album: 3
+
+- title: "Kan met wijnglas"
+  year: "jaar onbekend"
+  image: "vaas_keuken.jpg"
+  size: "40x40"
+  signed: false
+  category: "vazen"
+  location: "B"
+  album: false
+
+- title: Kleine bloemen
+  year: "jaar onbekend"
+  image: "bloem_klein.jpg"
+  size: "20x20"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: false
+
+- title: Zee klein 1 (zeilbootje)
+  year: "jaar onbekend"
+  image: "zee_klein_1.jpg"
   size: "20x20"
   signed: false
   category: "zee"
   location: "B"
+  album: 1
 
-- title: "Strandpaal"
+- title: Zee klein 2 (motorbootje)
   year: "jaar onbekend"
-  image: "strandpaal.png"
-  size: "onbekend"
+  image: "zee_klein_2.jpg"
+  size: "20x20"
   signed: false
   category: "zee"
   location: "B"
+  album: false
 
-- title: Appels & Uien
+- title: Zee klein 3 (paal)
   year: "jaar onbekend"
-  image: "appels_uien.png"
+  image: "zee_klein_3.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: Zee klein 4 (strand paaltjes)
+  year: "jaar onbekend"
+  image: "zee_klein_4.jpg"
+  size: "20x20"
+  signed: false
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: Zee klein 5 (strand weggetje)
+  year: "jaar onbekend"
+  image: "zee_klein_5.jpg"
+  size: "20x20"
+  signed: true
+  category: "zee"
+  location: "B"
+  album: false
+
+- title: "Strand trappetje"
+  year: "jaar onbekend"
+  image: "strand_trappetje.jpg"
   size: "onbekend"
   signed: false
-  category: "fruit"
-  location: "B"
+  category: "zee"
+  location: "?"
+  album: 1
 
-- title: "Appeltjes"
-  year: 2012
-  image: "appeltjes.png"
+- title: "Boeket van rode en witte bloemen (rood)"
+  year: 2011
+  image: "bloemen_boeket.jpg"
   size: "onbekend"
   signed: true
-  category: "fruit"
-  location: "B"
+  category: "bloemen"
+  location: "P"
+  album: false
 
-- title: "Appels"
-  year: "jaar onbekend"
-  image: "appels.png"
+- title: "Schaatsers"
+  year: 2017
+  image: "personen_schaatsers.jpg"
   size: "onbekend"
-  signed: false
-  category: "fruit"
-  location: "B"
+  signed: true
+  category: "personen"
+  location: "A"
+  album: false
+
+# - title: "personen schets zelfportret"
+#   year: "jaar onbekend"
+#   image: "personen_schets_zelfportret.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "personen"
+#   location: "?"
+#   album: 3
+  
+# - title: "personen zelfportret"
+#   year: "jaar onbekend"
+#   image: "personen_zelfportret.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "personen"
+#   location: "B"
+#   album: 3

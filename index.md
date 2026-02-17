@@ -19,21 +19,47 @@ layout: home
   </div>
   <div class="filter-bar">
     {% for cat in categories %}
-    <button class="filter" data-filter="{{ cat }}">
-      {{ cat | capitalize }}
-    </button>
+      {% if cat == "fruit" %}
+        <button class="filter" data-filter="{{ cat }}">
+          Fruit/Groente
+        </button>
+      {% else %}
+        <button class="filter" data-filter="{{ cat }}">
+          {{ cat | capitalize }}
+        </button>
+      {% endif %}
     {% endfor %}
   </div>
+</div>
+
+<div class="availability-toggle">
+  <label class="availability-label">
+    <input type="checkbox" id="toggle-availability">
+    Toon beschikbaarheid
+  </label>
 </div>
 
 <div class="gallery">
   {% for painting in paintings %}
   <div class="card {{ painting.category }}">
+    {% if painting.location == "B" %}
+    <div class="badge available">B</div>
+    {% endif %}
     <img src="{{ '/assets/img/paintings/' | relative_url }}{{ painting.image }}" 
          alt="{{ painting['image-alt'] | default: painting.title }}">
     <div class="info">
       <h3>{{ painting.title }}</h3>
-      <span class="year">{{ painting.year }}</span>
+      <div class="details">
+        {% if painting.year and painting.year != "jaar onbekend" %}
+        <span class="year">{{ painting.year }}</span>
+        {% endif %}
+        {% if painting.size and painting.size != "onbekend" %}
+        <span class="size">{{ painting.size }}</span>
+        {% endif %}
+        {% if painting.signed %}
+        <span class="signed">gesigneerd</span>
+        {% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
@@ -98,7 +124,7 @@ layout: home
 }
 
 .filter {
-  padding: 8px 16px;
+  padding: 8px 10px;
   border: 1px solid #ccc;
   background: #f8f8f8;
   border-radius: 6px;
@@ -132,6 +158,7 @@ layout: home
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
   transition: transform 0.12s ease;
+  position: relative;
 }
 
 .card:hover {
@@ -153,9 +180,43 @@ layout: home
   font-size: 1.1rem;
 }
 
-.info .year {
+.info .details {
   color: #777;
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+  z-index: 10;
+}
+
+.badge.available {
+  background: #027d35;
+  display: none;
+}
+
+.availability-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-style: italic
+}
+
+.availability-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 .modal {
@@ -170,6 +231,32 @@ layout: home
   overflow: auto;
   background: rgba(0,0,0,0.7);
   backdrop-filter: blur(3px);
+}
+
+.modal-content {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.modal-caption {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 @media (max-width: 680px) {
@@ -219,6 +306,43 @@ document.querySelectorAll(".filter").forEach(btn => {
 
     document.querySelectorAll(".filter").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
+  });
+});
+
+const checkbox = document.getElementById("toggle-availability");
+
+if (checkbox) {
+  checkbox.addEventListener("change", function() {
+    document.querySelectorAll(".badge.available").forEach(badge => {
+      badge.style.display = this.checked ? "block" : "none";
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const modal = document.getElementById("image-modal");
+  const modalImg = document.getElementById("modal-img");
+  const modalCaption = document.getElementById("modal-caption");
+  const closeBtn = modal.querySelector(".modal-close");
+
+  document.querySelectorAll(".gallery .card img").forEach(img => {
+    img.addEventListener("click", () => {
+      modal.style.display = "block";
+      modalImg.src = img.src;
+
+      const card = img.closest(".card");
+      const title = card.querySelector(".info h3").textContent;
+      const year = card.querySelector(".info .year")?.textContent || "";
+      modalCaption.textContent = year ? `${title} (${year})` : title;
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) modal.style.display = "none";
   });
 });
 </script>
