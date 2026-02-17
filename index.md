@@ -19,21 +19,50 @@ layout: home
   </div>
   <div class="filter-bar">
     {% for cat in categories %}
-    <button class="filter" data-filter="{{ cat }}">
+      {% if cat == "fruit" %}
+        <button class="filter" data-filter="{{ cat }}">
+          Fruit/Groente
+        </button>
+      {% else %}
+        <button class="filter" data-filter="{{ cat }}">
+          {{ cat | capitalize }}
+        </button>
+      {% endif %}
+    <!-- <button class="filter" data-filter="{{ cat }}">
       {{ cat | capitalize }}
-    </button>
+    </button> -->
     {% endfor %}
   </div>
+</div>
+
+<div class="availability-toggle">
+  <label class="availability-label">
+    <input type="checkbox" id="toggle-availability">
+    Toon beschikbaarheid
+  </label>
 </div>
 
 <div class="gallery">
   {% for painting in paintings %}
   <div class="card {{ painting.category }}">
+    {% if painting.location == "B" %}
+    <div class="badge available">B</div>
+    {% endif %}
     <img src="{{ '/assets/img/paintings/' | relative_url }}{{ painting.image }}" 
          alt="{{ painting['image-alt'] | default: painting.title }}">
     <div class="info">
       <h3>{{ painting.title }}</h3>
-      <span class="year">{{ painting.year }}</span>
+      <div class="details">
+        {% if painting.year and painting.year != "jaar onbekend" %}
+        <span class="year">{{ painting.year }}</span>
+        {% endif %}
+        {% if painting.size and painting.size != "onbekend" %}
+        <span class="size">{{ painting.size }}</span>
+        {% endif %}
+        {% if painting.signed %}
+        <span class="signed">gesigneerd</span>
+        {% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
@@ -132,6 +161,7 @@ layout: home
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
   transition: transform 0.12s ease;
+  position: relative;
 }
 
 .card:hover {
@@ -153,9 +183,43 @@ layout: home
   font-size: 1.1rem;
 }
 
-.info .year {
+.info .details {
   color: #777;
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+  z-index: 10;
+}
+
+.badge.available {
+  background: #027d35;
+  display: none;
+}
+
+.availability-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-style: italic
+}
+
+.availability-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 .modal {
@@ -221,4 +285,14 @@ document.querySelectorAll(".filter").forEach(btn => {
     btn.classList.add("active");
   });
 });
+
+const checkbox = document.getElementById("toggle-availability");
+
+if (checkbox) {
+  checkbox.addEventListener("change", function() {
+    document.querySelectorAll(".badge.available").forEach(badge => {
+      badge.style.display = this.checked ? "block" : "none";
+    });
+  });
+}
 </script>

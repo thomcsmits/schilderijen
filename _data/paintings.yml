@@ -14,7 +14,6 @@
   signed: false
   category: "fruit"
   location: "B"
-  dubbel: true
   album: 3
 
 - title: "Picknick"
