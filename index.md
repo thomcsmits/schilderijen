@@ -236,6 +236,32 @@ layout: home
   backdrop-filter: blur(3px);
 }
 
+.modal-content {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.modal-caption {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 @media (max-width: 680px) {
   .intro {
     flex-direction: column;
@@ -295,4 +321,31 @@ if (checkbox) {
     });
   });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const modal = document.getElementById("image-modal");
+  const modalImg = document.getElementById("modal-img");
+  const modalCaption = document.getElementById("modal-caption");
+  const closeBtn = modal.querySelector(".modal-close");
+
+  document.querySelectorAll(".gallery .card img").forEach(img => {
+    img.addEventListener("click", () => {
+      modal.style.display = "block";
+      modalImg.src = img.src;
+
+      const card = img.closest(".card");
+      const title = card.querySelector(".info h3").textContent;
+      const year = card.querySelector(".info .year")?.textContent || "";
+      modalCaption.textContent = year ? `${title} (${year})` : title;
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) modal.style.display = "none";
+  });
+});
 </script>
