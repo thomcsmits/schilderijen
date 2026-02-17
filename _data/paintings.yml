@@ -1,11 +1,11 @@
-# - title: "Zee"
-#   year: 2013
-#   image: "zee.png"
-#   size: "onbekend"
-#   signed: true
-#   category: "zee"
-#   location: "N"
-#   dubbel: true
+- title: "Zee"
+  year: 2013
+  image: "zee.png"
+  size: "onbekend"
+  signed: true
+  category: "zee"
+  location: "N"
+  album: 1
 
 # - title: "Rode bloemen"
 #   year: 2012
@@ -75,7 +75,7 @@
   image: "picknick.png"
   size: "50x40"
   signed: false
-  category: "bomen"
+  category: "landschap"
   location: "B"
 
 - title: "Duinen"
@@ -109,7 +109,7 @@
   image: "vallei.png"
   size: "38x46"
   signed: false
-  category: "bomen"
+  category: "landschap"
   location: "B"
 
 # - title: "Boot op zee"
@@ -154,7 +154,7 @@
 #   image: "rode_boom.png"
 #   size: "onbekend"
 #   signed: false
-#   category: "bomen"
+#   category: "landschap"
 #   location: "B"
 #   dubbel: true
 
@@ -263,7 +263,7 @@
   image: "abstract.png"
   size: "50x60"
   signed: true
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: false
 
@@ -333,7 +333,7 @@
   image: "bloemen_warm.png"
   size: "50x50"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: false
 
@@ -372,7 +372,7 @@
   image: "boerderijen.png"
   size: "70x50"
   signed: true
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: false
 
@@ -391,7 +391,7 @@
   image: "dorp_vuur.png"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: false
 
@@ -400,7 +400,7 @@
   image: "dorpje.png"
   size: "70x50"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: false
 
@@ -409,7 +409,7 @@
   image: "duinen_groot.png"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: false
 
@@ -418,7 +418,7 @@
   image: "duinen_vlak.png"
   size: "50x40"
   signed: false
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: false
 
@@ -427,7 +427,7 @@
   image: "hortensia.png"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: false
 
@@ -436,7 +436,7 @@
   image: "jurken.png"
   size: "50x50"
   signed: true
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: false
 
@@ -455,7 +455,7 @@
   image: "klein.png"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: false
 
@@ -474,7 +474,7 @@
   image: "open_rug.png"
   size: "50x60"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: false
 
@@ -493,7 +493,7 @@
   image: "peren2.png"
   size: "30x24"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: false
 
@@ -502,7 +502,7 @@
   image: "peren3.png"
   size: "40x30"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: false
 
@@ -511,7 +511,7 @@
   image: "personen_rood.png"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: false
 
@@ -550,7 +550,7 @@
   image: "uien_rood.png"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: false
 
@@ -559,7 +559,7 @@
   image: "vasen_wolken.png"
   size: "70x50"
   signed: false
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: false
 
@@ -568,7 +568,7 @@
   image: "veluwe.png"
   size: "50x40"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: false
 
@@ -577,7 +577,7 @@
   image: "vuurtoren.png"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: false
 
@@ -598,7 +598,7 @@
   image: "abstract_danseres.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 1
 
@@ -607,7 +607,7 @@
   image: "abstract_huisje.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -616,7 +616,7 @@
   image: "bloem_vaas_2d.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -625,7 +625,7 @@
   image: "bloem_vaas_blaadjes.jpg"
   size: "50x40"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -634,7 +634,7 @@
   image: "bloem_vaas_blauw_abstract.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 1
 
@@ -643,7 +643,7 @@
   image: "bloem_vaas_blauw_abstract_rossig.jpg"
   size: "50x60"
   signed: true
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 1
 
@@ -652,7 +652,7 @@
   image: "bloem_vaas_blauw_groen.jpg"
   size: "50x70"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -661,7 +661,7 @@
   image: "bloem_vaas_blauw_vierkant.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 1
 
@@ -670,7 +670,7 @@
   image: "bloem_vaas_blauw_wit_rood.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -679,7 +679,7 @@
   image: "bloem_vaas_blauwe_achtergrond.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -688,7 +688,7 @@
   image: "bloem_vaas_groen.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -697,7 +697,7 @@
   image: "bloem_vaas_hortensia.jpg"
   size: "40x30"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
   medium: "papier"
@@ -707,7 +707,7 @@
   image: "bloem_vaas_rodig.jpg"
   size: "40x40"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -716,7 +716,7 @@
   image: "bloem_vaas_roze.jpg"
   size: "60x50"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -725,7 +725,7 @@
   image: "bloem_vaas_tulpen.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 1
 
@@ -734,25 +734,26 @@
   image: "boom_rood.jpg"
   size: "50x40"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
-- title: "dubbel1"
-  year: "jaar onbekend"
-  image: "dubbel1.jpg"
-  size: "onbekend"
-  signed: false
-  category: "TBD"
-  location: "B"
-  album: 1
+# - title: "dubbel1"
+#   year: "jaar onbekend"
+#   image: "dubbel1.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "TBD"
+#   location: "B"
+#   album: 1
+#   dubbel: true
 
 - title: "landschap beige"
   year: "jaar onbekend"
   image: "landschap_beige.jpg"
   size: "40x30"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
   medium: "papier"
@@ -762,7 +763,7 @@
   image: "landschap_bos.jpg"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -771,7 +772,7 @@
   image: "landschap_grasveld.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -780,7 +781,7 @@
   image: "landschap_rivier_rossig.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -789,7 +790,7 @@
   image: "landschap_treurwilgen.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -798,7 +799,7 @@
   image: "landschap_tulpenveld.jpg"
   size: "50x70"
   signed: false
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -807,7 +808,7 @@
   image: "landschap_weggetje.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -816,7 +817,7 @@
   image: "personen_drie_vrouwen.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 1
 
@@ -825,7 +826,7 @@
   image: "straat.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "landschap"
   location: "B"
   album: 1
 
@@ -834,7 +835,7 @@
   image: "strand_trappetje.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: 1
 
@@ -843,7 +844,7 @@
   image: "zee_boot_rechtop.jpg"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: 1
 
@@ -852,7 +853,7 @@
   image: "zee_boot_scheveningen.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: 1
 
@@ -861,25 +862,26 @@
   image: "zee_bootje.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: 1
 
-- title: "zee paal"
-  year: "jaar onbekend"
-  image: "zee_paal.jpg"
-  size: "onbekend"
-  signed: false
-  category: "TBD"
-  location: "B"
-  album: 1
+# - title: "zee paal"
+#   year: "jaar onbekend"
+#   image: "zee_paal.jpg"
+#   size: "onbekend"
+#   signed: false
+#   category: "zee"
+#   location: "B"
+#   album: 1
+#   dubbel: true
 
 - title: "zee zonsondergang"
   year: "jaar onbekend"
   image: "zee_zonsondergang.jpg"
   size: "50x60"
   signed: false
-  category: "TBD"
+  category: "zee"
   location: "B"
   album: 1
 
@@ -888,7 +890,7 @@
   image: "abstract_golven.jpg"
   size: "50x60"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 2
 
@@ -897,7 +899,7 @@
   image: "abstract_kleuren.jpg"
   size: "50x40"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 2
   medium: "papier"
@@ -907,7 +909,7 @@
   image: "abstract_rood.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 2
 
@@ -916,7 +918,7 @@
   image: "bloem_abstract.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -925,7 +927,7 @@
   image: "bloem_blauw.jpg"
   size: "70x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -934,7 +936,7 @@
   image: "bloem_blauw_geel_omlijnd.jpg"
   size: "50x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -943,7 +945,7 @@
   image: "bloem_klaproos.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -952,7 +954,7 @@
   image: "bloem_klaproos_2.jpg"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -961,7 +963,7 @@
   image: "bloem_rood_roze.jpg"
   size: "40x40"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -970,7 +972,7 @@
   image: "bloem_tulpen_geel.jpg"
   size: "60x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -979,7 +981,7 @@
   image: "bloem_vaas_geel.jpg"
   size: "60x60"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -988,7 +990,7 @@
   image: "bloem_vaas_hyacinth_abstract.jpg"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
   notes: ingelijst
@@ -999,7 +1001,7 @@
   image: "bloem_vaas_kleurijk.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -1008,7 +1010,7 @@
   image: "bloem_waterverf.jpg"
   size: "40x30"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
   medium: "papier"
@@ -1018,7 +1020,7 @@
   image: "bloem_wit.jpg"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
@@ -1027,16 +1029,16 @@
   image: "bloem_zonnebloem.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "bloemen"
   location: "B"
   album: 2
 
-- title: "fruit appels groen"
+- title: "fruit citroenen"
   year: "jaar onbekend"
   image: "fruit_appels_groen.jpg"
-  size: "onbekend"
+  size: "30x24"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1045,7 +1047,7 @@
   image: "fruit_appels_ui.jpg"
   size: "40x40"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1054,7 +1056,7 @@
   image: "fruit_citroenen.jpg"
   size: "30x24"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1063,7 +1065,7 @@
   image: "fruit_granaatappel.jpg"
   size: "40x30"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1072,7 +1074,7 @@
   image: "fruit_knoflook.jpg"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1081,7 +1083,7 @@
   image: "fruit_paprika.jpg"
   size: "40x40"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1090,7 +1092,7 @@
   image: "fruit_prei.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1099,7 +1101,7 @@
   image: "fruit_schets.jpg"
   size: "40x30"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
   notes: ingelijst
@@ -1109,7 +1111,7 @@
   image: "fruit_ui.jpg"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1118,7 +1120,7 @@
   image: "fruit_ui_rood.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1127,7 +1129,7 @@
   image: "fruit_uien.jpg"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 2
 
@@ -1136,7 +1138,7 @@
   image: "vaas_abstract.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 2
 
@@ -1145,7 +1147,7 @@
   image: "vaas_blauw.jpg"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 2
 
@@ -1154,7 +1156,7 @@
   image: "vaas_jampot.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 2
 
@@ -1163,7 +1165,7 @@
   image: "vaas_rossig.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 2
 
@@ -1172,7 +1174,7 @@
   image: "vaas_verschillend.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "vasen"
   location: "B"
   album: 2
 
@@ -1181,7 +1183,7 @@
   image: "wolken.jpg"
   size: "50x50"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 2
 
@@ -1190,7 +1192,7 @@
   image: "wolken_stippen.jpg"
   size: "40x40"
   signed: true
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 2
 
@@ -1199,7 +1201,7 @@
   image: "abstract_anemoon.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 3
 
@@ -1208,7 +1210,7 @@
   image: "abstract_landschap_vuur.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "abstract"
   location: "B"
   album: 3
 
@@ -1217,7 +1219,7 @@
   image: "fruit_asperges.jpg"
   size: "30x40"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 3
 
@@ -1226,7 +1228,7 @@
   image: "fruit_mais.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "fruit"
   location: "B"
   album: 3
 
@@ -1235,7 +1237,7 @@
   image: "kind_schoentjes.jpg"
   size: "30x24"
   signed: false
-  category: "TBD"
+  category: "kind"
   location: "B"
   album: 3
 
@@ -1244,7 +1246,7 @@
   image: "kind_teddybeer.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "kind"
   location: "B"
   album: 3
   medium: "papier"
@@ -1255,7 +1257,7 @@
   image: "personen_ballet.jpg"
   size: "30x40"
   signed: true
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1264,7 +1266,7 @@
   image: "personen_hoofddoek.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1273,7 +1275,7 @@
   image: "personen_hoofddoek2.jpg"
   size: "50x50"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1282,7 +1284,7 @@
   image: "personen_hoofden.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1291,7 +1293,7 @@
   image: "personen_rug.jpg"
   size: "50x40"
   signed: true
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1300,7 +1302,7 @@
   image: "personen_schets_draai.jpg"
   size: "40x60"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
   medium: "papier"
@@ -1310,7 +1312,7 @@
   image: "personen_schets_man.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1319,7 +1321,7 @@
   image: "personen_schets_moeder.jpg"
   size: "30x43"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
   notes: ingelijst
@@ -1329,7 +1331,7 @@
   image: "personen_schets_zelfportret.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1338,7 +1340,7 @@
   image: "personen_veld.jpg"
   size: "60x50"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1347,7 +1349,7 @@
   image: "personen_vinger.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1356,7 +1358,7 @@
   image: "personen_vrouw.jpg"
   size: "40x50"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1365,7 +1367,7 @@
   image: "personen_vrouw_hoed.jpg"
   size: "40x50"
   signed: true
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1374,7 +1376,7 @@
   image: "personen_zelfportret.jpg"
   size: "onbekend"
   signed: false
-  category: "TBD"
+  category: "personen"
   location: "B"
   album: 3
 
@@ -1394,6 +1396,7 @@
   size: 50x60
   medium: papier
   notes: ingelijst
+  # TODO: check vaas verschillend
 
 - title: kannen op de tafel 
   size: 40x40
