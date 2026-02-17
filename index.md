@@ -28,9 +28,6 @@ layout: home
           {{ cat | capitalize }}
         </button>
       {% endif %}
-    <!-- <button class="filter" data-filter="{{ cat }}">
-      {{ cat | capitalize }}
-    </button> -->
     {% endfor %}
   </div>
 </div>
@@ -127,7 +124,7 @@ layout: home
 }
 
 .filter {
-  padding: 8px 16px;
+  padding: 8px 10px;
   border: 1px solid #ccc;
   background: #f8f8f8;
   border-radius: 6px;
