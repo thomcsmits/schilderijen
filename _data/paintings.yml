@@ -412,7 +412,7 @@
   size: "50x40"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "Nel"
   album: 1
 
 - title: "Beige landschap"
@@ -603,7 +603,7 @@
   size: "40x40"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "Elma"
   album: 2
 
 - title: "Vaas met hyacinth abstract aquarel"
@@ -632,7 +632,7 @@
   size: "40x30"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "Petra"
   album: 2
   medium: "papier"
 
@@ -742,7 +742,7 @@
   size: "30x40"
   signed: true
   category: "fruit"
-  location: "B"
+  location: "Greet"
   album: 2
 
 - title: "Rode uien (liggend)"
@@ -816,7 +816,7 @@
   size: "40x40"
   signed: true
   category: "abstract"
-  location: "B"
+  location: "Wilma"
   album: 2
 
 - title: "Mais"
@@ -1009,7 +1009,7 @@
   size: "20x20"
   signed: false
   category: "zee"
-  location: "B"
+  location: "Sjaan"
   album: false
 
 - title: Zee klein 4 (strand paaltjes)
@@ -1045,7 +1045,7 @@
   size: "onbekend"
   signed: true
   category: "bloemen"
-  location: "P"
+  location: "Petra"
   album: false
 
 - title: "Schaatsers"
