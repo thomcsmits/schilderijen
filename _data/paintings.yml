@@ -7,7 +7,7 @@
   location: "N"
   album: 1
 
-- title: "Tulpenveld"
+- title: "Veld met klaprozen"
   year: "jaar onbekend"
   image: "landschap_tulpenveld.jpg"
   size: "50x70"
@@ -40,7 +40,7 @@
   size: "40x50"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "Mientje"
   album: false
 
 - title: "Rode uien (staand)"
@@ -49,7 +49,7 @@
   size: "30x40"
   signed: true
   category: "fruit"
-  location: "B"
+  location: "A?"
   album: false
 
 - title: "Jampotje"
@@ -97,7 +97,7 @@
   location: "T"
   album: false
 
-- title: "Vaas met blauwgroene bloemen"
+- title: "Vaas met witblauwe bloemen (groen)"
   year: 2013
   image: "bloem_vaas_blauw_groen.jpg"
   size: "50x70"
@@ -113,7 +113,7 @@
   medium: "dun doek"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "X"
   album: false
 
 - title: "Abstract"
@@ -124,7 +124,6 @@
   category: "abstract"
   location: "B"
   album: false
-
 
 - title: "Groot boeket"
   year: 2018
@@ -177,7 +176,7 @@
   size: "40x50"
   signed: false
   category: "zee"
-  location: "B"
+  location: "Martin & Patricia"
   album: false
 
 - title: "Vlakke duinen"
@@ -186,10 +185,10 @@
   size: "50x40"
   signed: false
   category: "zee"
-  location: "B"
+  location: "A?"
   album: false
 
-- title: "Personen in jurken"
+- title: "Danseressen (blauw)"
   year: 2017
   image: "jurken.png"
   size: "50x50"
@@ -204,7 +203,7 @@
   size: "50x60"
   signed: false
   category: "personen"
-  location: "B"
+  location: "A?"
   album: false
 
 - title: "Open rug (klein)"
@@ -222,7 +221,7 @@
   size: "30x24"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "Marloes?"
   album: false
 
 - title: "Peren (wit)"
@@ -258,7 +257,7 @@
   size: "60x50"
   signed: false
   category: "personen"
-  location: "B"
+  location: "Alice"
   album: 3
 
 - title: "Veluwe"
@@ -276,7 +275,7 @@
   size: "40x50"
   signed: true
   category: "zee"
-  location: "B"
+  location: "Ad"
   album: false
 
 - title: "Abstracte danseres"
@@ -303,7 +302,7 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "?"
+  location: "N"
   album: 1
 
 - title: "Bloemen in vaas 2D"
@@ -366,7 +365,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "?"
+  location: "Leo & Corinne"
   album: 1
 
 - title: "Vaas met roze bloemen (groen)"
@@ -403,7 +402,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "?"
+  location: "?"  # Misschien B?
   album: 1
 
 - title: "Rode boom"
@@ -431,7 +430,7 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "?"
+  location: "?" # Misschien B?
   album: 1
 
 - title: "Bos"
@@ -449,16 +448,16 @@
   size: "onbekend"
   signed: false
   category: "landschap"
-  location: "?"
+  location: "?" # Misschien B?
   album: 1
 
 - title: "Treurwilgen"
-  year: "jaar onbekend"
+  year: 2015
   image: "landschap_treurwilgen.jpg"
   size: "onbekend"
-  signed: false
+  signed: true
   category: "landschap"
-  location: "?"
+  location: "?" # Misschien B?
   album: 1
 
 - title: "Weggetje door bomen"
@@ -503,7 +502,7 @@
   size: "40x50"
   signed: true
   category: "zee"
-  location: "B"
+  location: "Ella"
   album: 1
 
 - title: "Zonsondergang"
@@ -512,7 +511,7 @@
   size: "50x60"
   signed: false
   category: "zee"
-  location: "B"
+  location: "A?"
   album: 1
 
 - title: "Abstracte golven"
@@ -540,7 +539,7 @@
   size: "onbekend"
   signed: false
   category: "abstract"
-  location: "S"
+  location: "Sary"
   album: 2
 
 - title: "Grote blauwe bloem"
@@ -576,7 +575,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "?"
+  location: "?" # Misschien B?
   album: 2
 
 - title: "Klaproos (liggend)"
@@ -585,7 +584,7 @@
   size: "onbekend"
   signed: false
   category: "bloemen"
-  location: "?"
+  location: "?" # Misschien B?
   album: 2
 
 - title: "Klaproos (staand)"
@@ -594,7 +593,7 @@
   size: "40x50"
   signed: false
   category: "bloemen"
-  location: "?"
+  location: "Alice" # Misschien B?
   album: 2
 
 - title: "Bloemen boeket met rode en roze bloemen"
@@ -778,7 +777,7 @@
   size: "30x40"
   signed: true
   category: "vazen"
-  location: "B"
+  location: "Jose"
   album: 2
 
 - title: "Roze vazen en kannen"
@@ -796,7 +795,7 @@
   size: "50x60"
   signed: true
   category: "vazen"
-  location: "B"
+  location: "Eric"
   album: 2
   medium: papier
   notes: ingelijst
@@ -825,7 +824,7 @@
   size: "onbekend"
   signed: false
   category: "fruit"
-  location: "?"
+  location: "?" # Misschien B?
   album: 3
 
 - title: "Schoentjes"
@@ -834,7 +833,7 @@
   size: "30x24"
   signed: false
   category: "kind"
-  location: "B"
+  location: "A?"
   album: 3
 
 - title: "Teddybeer"
@@ -854,7 +853,7 @@
   size: "onbekend"
   signed: false
   category: "abstract"
-  location: "?"
+  location: "?" 
   album: 3
 
 - title: "Abstract landschap in vuur"
@@ -875,7 +874,7 @@
   location: "B"
   album: 3
 
-- title: "Hoofddoek 1"
+- title: "Hoofddoek 1 (Van Dongen)"
   year: "jaar onbekend"
   image: "personen_hoofddoek.jpg"
   size: "onbekend"
@@ -884,7 +883,7 @@
   location: "?"
   album: 3
 
-- title: "Hoofddoek 2"
+- title: "Hoofddoek 2 (Van Dongen)"
   year: "jaar onbekend"
   image: "personen_hoofddoek2.jpg"
   size: "50x50"
@@ -893,7 +892,7 @@
   location: "A"
   album: 3
 
-- title: "Hoofddoek 3"
+- title: "Hoofddoek 3 (Van Dongen)"
   year: 2012
   image: "personen_hoofddoek3.jpg"
   size: "onbekend"
@@ -946,7 +945,7 @@
   size: "onbekend"
   signed: false
   category: "personen"
-  location: "?"
+  location: "?" # Misschien B?
   album: 3
 
 - title: "Buste vrouw"
@@ -964,7 +963,7 @@
   size: "40x50"
   signed: true
   category: "personen"
-  location: "B"
+  location: "A?"
   album: 3
 
 - title: "Kan met wijnglas"
@@ -982,7 +981,7 @@
   size: "20x20"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "A?"
   album: false
 
 - title: Zee klein 1 (zeilbootje)
@@ -1018,7 +1017,7 @@
   size: "20x20"
   signed: false
   category: "zee"
-  location: "B"
+  location: "A?"
   album: false
 
 - title: Zee klein 5 (strand weggetje)
@@ -1027,16 +1026,16 @@
   size: "20x20"
   signed: true
   category: "zee"
-  location: "B"
+  location: "A?"
   album: false
 
 - title: "Strand trappetje"
   year: "jaar onbekend"
   image: "strand_trappetje.jpg"
-  size: "onbekend"
+  size: "20x20"
   signed: false
   category: "zee"
-  location: "?"
+  location: "Leo & Corinne"
   album: 1
 
 - title: "Boeket van rode en witte bloemen (rood)"
@@ -1048,7 +1047,7 @@
   location: "Petra"
   album: false
 
-- title: "Schaatsers"
+- title: "Ballerinas"
   year: 2017
   image: "personen_schaatsers.jpg"
   size: "onbekend"
@@ -1056,6 +1055,10 @@
   category: "personen"
   location: "A"
   album: false
+
+# - title: "Paardenbloem"
+
+# - title: "Asperges 2"
 
 # - title: "personen schets zelfportret"
 #   year: "jaar onbekend"
