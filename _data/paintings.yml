@@ -22,7 +22,7 @@
   size: "60x50"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "Manqing"
   album: 2
 
 - title: "Asperges"
@@ -31,7 +31,7 @@
   size: "30x40"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "Jose"
   album: 3
 
 - title: "Hortensia"
@@ -40,7 +40,7 @@
   size: "40x50"
   signed: false
   category: "bloemen"
-  location: "Mientje"
+  location: "B"
   album: false
 
 - title: "Rode uien (staand)"
@@ -176,7 +176,7 @@
   size: "40x50"
   signed: false
   category: "zee"
-  location: "Martin & Patricia"
+  location: "B"
   album: false
 
 - title: "Vlakke duinen"
@@ -185,7 +185,7 @@
   size: "50x40"
   signed: false
   category: "zee"
-  location: "A?"
+  location: "Martin & Patricia"
   album: false
 
 - title: "Danseressen (blauw)"
@@ -221,7 +221,7 @@
   size: "30x24"
   signed: false
   category: "fruit"
-  location: "Marloes?"
+  location: "Marloes"
   album: false
 
 - title: "Peren (wit)"
@@ -266,7 +266,7 @@
   size: "50x40"
   signed: false
   category: "landschap"
-  location: "B"
+  location: "Marijn"
   album: false
 
 - title: "Vuurtoren"
@@ -557,7 +557,7 @@
   size: "30x30"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "Ralph"
   album: false
 
 - title: "Blauwe bloemen met gele omlijning"
@@ -602,16 +602,16 @@
   size: "40x40"
   signed: false
   category: "bloemen"
-  location: "Elma"
+  location: "An"
   album: 2
 
 - title: "Vaas met hyacinth abstract aquarel"
   year: "jaar onbekend"
   image: "bloem_vaas_hyacinth_abstract.jpg"
-  size: "40x50"
+  size: "40x32"
   signed: false
   category: "bloemen"
-  location: "B"
+  location: "Mientje"
   album: 2
   notes: ingelijst
   medium: papier
@@ -664,11 +664,11 @@
 
 - title: "Appels en uien"
   year: "jaar onbekend"
-  image: "fruit_appels_ui.jpg"
+  image: "fruit_appels_uien.jpg"
   size: "40x40"
   signed: false
   category: "fruit"
-  location: "B"
+  location: "T"
   album: 2
 
 - title: "Mand citroenen"
@@ -677,7 +677,7 @@
   size: "30x24"
   signed: true
   category: "fruit"
-  location: "T"
+  location: "A"
   album: 2
 
 - title: "Prei"
@@ -1055,6 +1055,16 @@
   category: "personen"
   location: "A"
   album: false
+
+- title: "Witte bloem op groen"
+  year: "jaar onbekend"
+  image: "bloem_wit_groen.jpg"
+  size: "40x32"
+  signed: false
+  category: "bloemen"
+  location: "B"
+  album: false
+  medium: "papier"
 
 # - title: "Paardenbloem"
 
